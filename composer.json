@@ -1,0 +1,40 @@
+{
+    "name": "zdenekgebauer/cryptowatch-client",
+    "license": "wtfpl",
+    "description": "REST API client for Cryptowatch API",
+    "type": "library",
+    "keywords": [
+        "Cryptowatch",
+        "php",
+        "client"
+    ],
+    "authors": [
+        {
+            "name": "Zdenek Gebauer",
+            "email": "zdenek.gebauer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        },
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZdenekGebauer\\CryptowatchClient\\": "src/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^2.0",
+        "codeception/module-phpbrowser": "^1.0.0"
+    }
+}
