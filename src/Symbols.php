@@ -12,5 +12,8 @@ class Symbols
     public const ASSET_BTC = 'btc';
 
     public const PAIR_BTCUSD = 'btcusd',
-        PAIR_BTCUSDT = 'btcusdt';
+        PAIR_BTCUSDT = 'btcusdt',
+        PAIR_ETHUSDT = 'ethusdt',
+        PAIR_MKRUSDT = 'mkrusdt',
+        PAIR_SOLUSDT = 'solusdt';
 }

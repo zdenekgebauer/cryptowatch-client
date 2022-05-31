@@ -109,11 +109,9 @@ class Client
         $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
 
-//        $result = ($result === false ? false : substr($result, $headerSize));
         if (is_string($result)) {
             $result = substr($result, $headerSize);
         }
-
         return compact('result', 'httpCode', 'error', 'errorNo');
     }
 

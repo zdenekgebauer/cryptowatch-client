@@ -9,6 +9,7 @@ use DateTimeInterface;
 class CandlesticksRequest extends Request
 {
     /**
+     * returns max 6000 records (maybe for free access?)
      * @param array<string> $periods
      */
     public function __construct(
